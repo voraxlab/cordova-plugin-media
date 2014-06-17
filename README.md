@@ -20,3 +20,11 @@
 # org.apache.cordova.media
 
 Plugin documentation: [doc/index.md](doc/index.md)
+
+VORAX LAB
+
+- Added support to Player Rate
+
+TODO
+
+- Add Android support to Player Rate 
