@@ -21,10 +21,8 @@
 
 Plugin documentation: [doc/index.md](doc/index.md)
 
-VORAX LAB
+IOs:
+- Added support to Player Rate.
 
-- Added support to Player Rate
-
-TODO
-
-- Add Android support to Player Rate 
+Android:
+TODO: Add support to Player Rate.
