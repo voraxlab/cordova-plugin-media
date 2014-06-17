@@ -297,6 +297,17 @@
     // don't care for any callbacks
 }
 
+- (void)setPlayerRate:(CDVInvokedUrlCommand *)command
+{
+    NSNumber* rate = [command.arguments objectAtIndex:0 withDefault:[NSNumber numberWithFloat:1.0]];
+    
+    if (audioFile.player) {
+        audioFile.player.rate = rate;
+    }
+    
+    // there's no callback
+}
+
 - (void)startPlayingAudio:(CDVInvokedUrlCommand*)command
 {
     NSString* callbackId = command.callbackId;
